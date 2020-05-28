@@ -19,7 +19,7 @@
     
     - name: Install docker
       apt:
-        name: ['docker-ce', 'docker-ce-cli', 'containerd.io']
+        name: ['docker-ce', 'docker-ce-cli', 'containerd.io','docker-compose']
         state: present
     
     
